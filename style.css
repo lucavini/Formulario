@@ -71,6 +71,7 @@ form .select-input{
     border: 1px solid #000;
     border-radius: 5px;
     margin-bottom:23px;
+    background: #fff;
 }
 
 p{
@@ -100,6 +101,7 @@ p{
     border: none;
     border: 1px solid #000;
     border-radius: 5px;
+    margin-left: 10px;
 }
 .dates input:focus{outline: none;}
 
