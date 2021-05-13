@@ -61,9 +61,6 @@ form{
     margin-left: 10px;
     cursor: pointer;
 }
-.fa-cog{color: #8BA100;}
-.fa-plus-circle{color: #006F18;}
-.fa-trash{color: #970000;}
 
 form .select-input{
     width: 70%;
