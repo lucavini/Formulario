@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Formulario</title>
+    <link rel="stylesheet" type="text/css" href="style.css" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@300;400;700&display=swap"
+      rel="stylesheet"
+    />
+    <script
+      src="https://kit.fontawesome.com/d87da2b369.js"
+      crossorigin="anonymous"
+    ></script>
+  </head>
+
+  <body>
+    <main>
+      <div class="wrapper">
+        <div class="form_head">
+          <p>Cadastrados e Listagem de DFCs <i class="fas fa-edit"></i></p>
+        </div>
+
+        <form>
+          <p for="DFCs">DFCs cadastrados: </p>
+          <div class="DFCs-options">
+            <select id="DFCs" class="select-input">
+              <option value="teste">teste</option>
+              <option value="DFC2">DFC2</option>
+              <option value="TESTEGUGA">TESTE GUGA</option>
+            </select>
+
+            <div class="actions">
+              <i class="fas fa-cog"></i>
+              <i class="fas fa-plus-circle"></i>
+              <i class="fas fa-trash"></i>
+            </div>
+          </div>
+
+          <p>Selecionar período:</p>
+          <div class="dates">
+            <div>
+              <span for="inicio">De:</span>
+              <div class="calendar">
+                <input id="inicio" type="date" /><label for="inicio"><i class="far fa-calendar-plus"></i></label>
+              </div>
+            </div>
+
+            <div>
+              <span for="fim">Até:</span>
+              <div class="calendar">
+                <input id="fim" type="date" /><label for="fim"><i class="far fa-calendar-plus"></i></label>
+              </div>
+            </div>
+          </div>
+
+          <p for="Periodicidade">Periodicidade:</p>
+          <select id="Periodicidade" class="select-input">
+            <option value="semanal">semanal</option>
+            <option value="mensal">mensal</option>
+          </select>
+
+          <p for="Status">Status dos lançamentos:</p>
+          <select id="Status" class="select-input">
+            <option value="todos">todos</option>
+            <option value="realizado">realizado</option>
+            <option value="previsto">previsto</option>
+          </select>
+
+          <div class="buttons-action">
+            <button disabled class="anterior">Anterior</button>
+            <button class="terminar">Terminar</button>
+          </div>
+        </form>
+      </div>
+    </main>
+  </body>
+</html>

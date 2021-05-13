@@ -1,0 +1,146 @@
+*{
+    margin:0px;
+    padding: 0px;
+    font-family: 'Roboto', sans-serif;
+}
+
+main{
+    width:100%;
+    background: #ccc;
+    padding: 8em 0;
+}
+
+.wrapper{
+    width:406px;
+    margin: 0 auto;
+    background: #fff;
+}
+
+.form_head{
+    width: 100%;
+    background: #00428F;
+    padding: 12px 0;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px;
+}
+
+.form_head p{
+    font-size: 22px;
+    color: #fff;
+    margin-bottom: 0;
+}
+
+form{
+    width: 90%;
+    margin: 0 auto;
+    padding-bottom: 20px;
+}
+
+.DFCs-options{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom:23px;
+}
+
+.DFCs-options .select-input{
+    margin-bottom:0px;
+    max-width: 70%;
+    flex: 2;
+}
+
+.actions{
+    display: flex;
+    flex: 1;
+}
+
+.actions i{
+    flex: 1;
+    font-size: 20px;
+    margin-left: 10px;
+    cursor: pointer;
+}
+.fa-cog{color: #8BA100;}
+.fa-plus-circle{color: #006F18;}
+.fa-trash{color: #970000;}
+
+form .select-input{
+    width: 70%;
+    padding: 5px 10px;
+    font-family: 'Roboto', sans-serif;
+    font-size: 18px;
+    border: none;
+    border: 1px solid #000;
+    border-radius: 5px;
+    margin-bottom:23px;
+}
+
+p{
+    font-size: 18px;
+    margin-bottom: 10px;
+}
+
+.dates{
+    width: 70%;
+    display: flex;
+    margin-bottom:23px; 
+}
+
+.dates span{
+    font-size:11px ;
+    display: block;
+}
+
+.dates .calendar{
+    display: flex;
+    align-items: flex-end;
+}
+
+.dates input{
+    font-size: 11px;
+    padding:5px 0;
+    border: none;
+    border: 1px solid #000;
+    border-radius: 5px 0 0 5px;
+    border-right: none;
+}
+.dates input:focus{outline: none;}
+
+.dates div i{
+    margin-right: 8px;
+    border: 1px solid #000;
+    border-radius: 0 5px 5px 0;
+    border-left: none;
+    padding: 6px 1px;
+    cursor: pointer;
+}
+
+.buttons-action{
+    width: 70%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.buttons-action button{
+    flex: 1;
+    font-size: 18px;
+    padding: 10px 0;
+    max-width: 45%;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    border:2px solid #fff;
+}
+
+.terminar{
+    background: #00428F;
+    color: #fff;
+    transition: 0.5s;
+}
+
+.terminar:hover{
+    border:2px solid #00428F;
+    background:#fff;
+    color: #00428F;
+}
